@@ -1,6 +1,6 @@
 /*
 Escribir un programa que lea una matriz de enteros de 4 filas y 4 columnas y a
-continuación intercambie la fila i con la fila j, siendo i y j dos valores introducidos por teclado.
+continuaciÃ³n intercambie la fila i con la fila j, siendo i y j dos valores introducidos por teclado.
 */
 
 #include <iomanip>
@@ -12,7 +12,7 @@ int main(int argc, char *argv[]) {
 	
 	for (int i=1;i<=4;i++){
 		for(int j=1;j<=4;j++){
-			cout<<"ingrese el valor de la fina "<<i<<" columna "<<j<<": ";
+			cout<<"Ingrese el valor de la fila "<<i<<" columna "<<j<<": ";
 			cin>>enteros[i][j];
 		}
 	}
